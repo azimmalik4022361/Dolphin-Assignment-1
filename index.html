@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The DOCTYPE declaration defines this document as HTML5. 
+     The 'lang' attribute specifies the language as English. -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Specifies the character encoding for the document as UTF-8, 
+         ensuring compatibility with different characters. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the page is responsive by setting the viewport to 
+         match the device’s width and scale it properly. -->
+
+    <title>Landing Page</title>
+    <!-- Sets the title of the webpage that appears in the browser tab. -->
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Links an external Google Font called 'Poppins' to style the text on the page. -->
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Links an external CSS file named 'style.css' to apply styles to this page. -->
+</head>
+
+<body>
+    <!-- Body tag contains all the visible content of the webpage. -->
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Responsive Landing page</div>
+        <!-- Logo section displaying the title of the website. -->
+
+        <nav>
+            <ul class="nav-links">
+                <!-- Unordered list for the navigation menu. -->
+                <li><a href="#home">Home</a></li>
+                <!-- Each list item contains a link that navigates to different sections of the page. -->
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner">
+        <!-- Section for the banner with an ID for navigation and a class for styling. -->
+        <div class="banner-content">
+            <!-- Div to group the banner content. -->
+            <h1>Welcome to Our Landing Page</h1>
+            <!-- Main heading inside the banner. -->
+            <p>We provide the best services to help you grow your business.</p>
+            <!-- A paragraph describing the purpose of the website. -->
+            <a href="#services" class="btn">Explore Services</a>
+            <!-- A button-style link that scrolls to the services section. -->
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="services">
+        <!-- Section for services with an ID for navigation and class for styling. -->
+        <h2>Our Services</h2>
+        <!-- Heading for the services section. -->
+        <div class="service-cards">
+            <!-- Container for the service cards. -->
+
+            <div class="card">
+                <!-- Individual service card. -->
+                <h3>Service One</h3>
+                <!-- Service title. -->
+                <p>We offer high-quality service to meet your needs.</p>
+                <!-- Service description. -->
+            </div>
+
+            <div class="card">
+                <h3>Service Two</h3>
+                <p>Expert support and solutions for your business.</p>
+            </div>
+
+            <div class="card">
+                <h3>Service Three</h3>
+                <p>Efficient and reliable services for success.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <!-- Section for client testimonials. -->
+        <h2>What Our Clients Say</h2>
+        <!-- Heading for the testimonials section. -->
+
+        <div class="testimonial">
+            <!-- Individual testimonial container. -->
+            <p>"Amazing service! Helped us grow our business effortlessly."</p>
+            <!-- Client feedback. -->
+            <h4>- Aizm Malik</h4>
+            <!-- Client name. -->
+        </div>
+
+        <div class="testimonial">
+            <p>"Excellent support and fast response times."</p>
+            <h4>- Karan Turbhekar</h4>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <!-- Section for frequently asked questions. -->
+        <h2>Frequently Asked Questions</h2>
+        <!-- Heading for the FAQ section. -->
+
+        <div class="faq-item">
+            <!-- Individual FAQ item. -->
+            <h3>What services do you provide?</h3>
+            <!-- FAQ question. -->
+            <p>We provide consulting, marketing, and technology solutions.</p>
+            <!-- FAQ answer. -->
+        </div>
+
+        <div class="faq-item">
+            <h3>How can I contact support?</h3>
+            <p>You can reach us via the contact form below or email us directly.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <!-- Section for the contact form. -->
+        <h2>Contact Us</h2>
+        <!-- Heading for the contact section. -->
+
+        <form class="contact-form">
+            <!-- Contact form with input fields. -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <!-- Input field for the user's name, marked as required. -->
+            <input type="email" name="email" placeholder="Your Email" required>
+            <!-- Input field for the user's email, marked as required. -->
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <!-- Textarea for the user's message with a placeholder and required attribute. -->
+            <button type="submit" class="btn">Send Message</button>
+            <!-- Submit button for the form. -->
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MySite. All Rights Reserved.</p>
+        <!-- Footer copyright text. -->
+    </footer>
+
+</body>
+
+</html>
